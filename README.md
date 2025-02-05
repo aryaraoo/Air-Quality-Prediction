@@ -26,11 +26,11 @@ pip install -r requirements.txt
 ### Running the Application
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/air-quality-prediction.git
+   https://github.com/aryaraoo/Air-Quality-Prediction
    ```
 2. Navigate to the project directory:
    ```bash
-   cd air-quality-prediction
+   cd Air-Quality-Prediction
    ```
 3. Run the Flask app:
    ```bash
@@ -38,15 +38,15 @@ pip install -r requirements.txt
    ```
 4. Open your browser and visit:
    ```
-   http://127.0.0.1:5000
+   
    ```
 
 ## Dataset
-- The model is trained on an air quality dataset containing parameters like **PM2.5, PM10, CO, NO2, SO2, O3, Temperature, and Humidity**.
+- The model is trained on an air quality dataset containing parameters like **PM2.5, PM10, CO, NO2, SO2,Kms from industrial place,Population Temperature, and Humidity**.
 - Data preprocessing includes handling missing values, feature scaling, and normalization.
 
 ## Model Training
-- **Algorithm**: Uses Regression, Decision Trees, or Neural Networks.
+- **Algorithm**: Uses Random forest.
 - **Training**: Implemented using Scikit-learn.
 - **Evaluation**: Measures accuracy using RMSE, MAE, and R² score.
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 - Adding more advanced ML models (Deep Learning).
 
 ## Contributors
-- **Your Name** (Your Email / GitHub Profile)
+- **Aryaraoo** (shivanirao539@gmail.com / aryaraoo)
 
 ## License
 This project is licensed under the MIT License.
